@@ -1,0 +1,16 @@
+8/8/2024
+
+1.SQL Content Delivery , Demonstration
+2.SQL Topics
+DDL,DML,DQL
+Key constraint
+Stored procedure
+functions
+Trigger 
+Views
+Transactions
+Indexing
+Subqueries 
+Joins
+3.SQL Questionnaire Discussion
+4.Query Challenge Discussion
