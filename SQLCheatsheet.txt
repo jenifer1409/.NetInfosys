@@ -1,0 +1,96 @@
+1.functions : only select
+stored procedure : insert , update ,delete 
+
+2. Query command : SELECT 
+SQL CLAUSES AND aggregate functions
+
+4.
+select columns
+table1
+left join / right join 
+table2
+on condition
+
+7.Inner , Left Outer join, Right outer join , cross join ,self join 
+
+8.Inner join
+9.Primary key : Not null , Unique
+10.Foreign key : foreign key references the primary key of another table
+11.Unique key : Ensures values are distinct.
+12.Identity : Automatically increment the value.You will need to specify the starting number and increment value.
+13.DDL , DML 
+14.Employee Database :
+
+* EmployeeDetails
+* Department
+* Payroll
+* EmployeeContacts
+
+
+15.Data fields in employee table
+employeeId,firstName,lastName,hireDate,position
+
+16.one - one relationship
+19.no
+20.yes
+21.Truncate : deletes all record,ddl
+delete : delete 1 or many records,dml
+22.Table : XYZ
+SELECT [Columns]
+FROM XYZ
+WHERE age = 30
+23.composite key : 2 or more columns
+primary key : 1 
+foreign key : references pk of another table
+
+24.char,varchar,int,decimal,money
+25.
+select * from table;
+26.DML , DDL
+27.Yes
+30.same
+31.Normalization : Organize data to avoid redundant
+32.Table structured with rows and columns
+33.char vs varchar : fixed length , variable length
+34.Every combination of joining between two tables
+40.SQL Command : it could be sqlcommand object in ado.net
+41.create database dbname
+42.dml,ddl
+43.foreign key 
+44. can we have null values in foreign key ? - Yes 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
