@@ -1,0 +1,63 @@
+44.
+object : instance of class
+class : blueprint of object
+encapsulation: wraps(data + function) in single unit
+abstraction :Hides background details and provide necessary info
+inheritance : deriving properties & methods of one class to another
+polymorphism : one class multiple forms
+
+45.Reusability
+
+48 . Immutable objects - cannot be overridden or changed Eg:tuple
+- recreate one 
+
+49.define it , types, quote examples from your project 
+
+50.overloading : same method name diff method signature (inside same class)
+overriding : base class method overridden by derived class one implemented - abstract class
+in the child class - should use 'override' keyword 
+
+52.abstract methods : methods that doesn't have declaration and is implemented by derived class.
+
+53.interface : "what to do and not how to do ".contains declarations/ signatures and it "MUST" be implemented by the derived classes if its inherited.
+
+56.talk about interface that you used in the project
+
+57.go with the definition
+
+62. dynamic / Runtime polymorphism :method overriding
+static / compile time polymorphism :method overloading 
+
+65 . abstraction vs polymorphism
+
+method overriding / both 
+
+
+66 . two ways of inheritance :
+
+Single , multilevel
+
+67. JIT : Just in time compiler(MSIL -> MC)
+
+68. CLR : Common language runtime 
+(provide runtime service garbage collection , exception handling,type casting ,memory allocation)
+
+69.refernce class library(dll) or any service references
+
+
+70.dll - dynamic link library
+
+it requires other application to execute it 
+
+71. CTS - Common Type system 
+
+72.Assembly : generates .exe or .dll
+
+.exe : executable file 
+
+
+
+readonly vs constant : 
+constant is declared once and unchanged
+readonly is declared and latter point it can be initialized . In constructor.
+use case : cache,logger,services
