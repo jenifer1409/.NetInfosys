@@ -1,0 +1,52 @@
+
+
+OOP :
+
+Object :Instance of the class
+eg : car
+
+Class : Blueprint for creating objects .
+eg : Vehicle
+
+
+Encapsulation : Wrapping of data and functions in single unit
+
+How do achieve ???   - getters & setters 
+
+- Access modifiers : public , private ,protected 
+
+
+Abstraction : providing necessary info and hiding the background details 
+
+implementation : Abstract class & interface
+
+
+Inheritance : ability to inherit the properties / methods from one class to another class
+
+super class / parent class / base 
+sub class / child / derived
+
+single inheritance : 1bc -> 1 dc
+multilevel inheritance : 1bc -> dc1 ---> dc2
+Hybrid : combination of one or nore inheritance
+Hierarchial : 1bc ---> 1 dc ,2dc,3dc....
+Multiple : interface concept ( 1interface , 2 interface ---> 1 class)
+
+Polymorphism : ability to take multiple forms
+
+method overloading - multiple methods with same name in class with different signature
+( diff data tye,diff return type,diff no of arguments passed) ( same class)
+
+method overriding - overriding the base class method by derived class(happens in diff class)
+
+Abstract class :
+
+- acts a template where it contain declaration and it can be inherited and implemented by derived classes.
+- Can contain abstract methods(empty method) and concrete methods (fully implemented methods)
+- 'override' keyword is must
+
+Interface : "what to do but not how to do " 
+
+- contain method declaration and no implmentation
+- Whenever a class inherits this interface , the it "MUST" implement its methods.
+- No overriding keyword is required , Just implement it 

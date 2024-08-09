@@ -1,0 +1,14 @@
+C:\Users\Hp\source\repos\OOPProject\bin\Debug\net8.0\OOPProject.exe
+C:\Users\Hp\source\repos\OOPProject\bin\Debug\net8.0\OOPProject.deps.json
+C:\Users\Hp\source\repos\OOPProject\bin\Debug\net8.0\OOPProject.runtimeconfig.json
+C:\Users\Hp\source\repos\OOPProject\bin\Debug\net8.0\OOPProject.dll
+C:\Users\Hp\source\repos\OOPProject\bin\Debug\net8.0\OOPProject.pdb
+C:\Users\Hp\source\repos\OOPProject\obj\Debug\net8.0\OOPProject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Hp\source\repos\OOPProject\obj\Debug\net8.0\OOPProject.AssemblyInfoInputs.cache
+C:\Users\Hp\source\repos\OOPProject\obj\Debug\net8.0\OOPProject.AssemblyInfo.cs
+C:\Users\Hp\source\repos\OOPProject\obj\Debug\net8.0\OOPProject.csproj.CoreCompileInputs.cache
+C:\Users\Hp\source\repos\OOPProject\obj\Debug\net8.0\OOPProject.dll
+C:\Users\Hp\source\repos\OOPProject\obj\Debug\net8.0\refint\OOPProject.dll
+C:\Users\Hp\source\repos\OOPProject\obj\Debug\net8.0\OOPProject.pdb
+C:\Users\Hp\source\repos\OOPProject\obj\Debug\net8.0\OOPProject.genruntimeconfig.cache
+C:\Users\Hp\source\repos\OOPProject\obj\Debug\net8.0\ref\OOPProject.dll

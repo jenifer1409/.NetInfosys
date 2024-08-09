@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35122.118
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOPProject", "OOPProject.csproj", "{3FA5D0FF-45A9-437F-BDA8-E9A56AB69DA0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Notes", "Notes", "{BD1DBFCA-08E6-4BB2-8C36-3F99D7294E2B}"
+	ProjectSection(SolutionItems) = preProject
+		notes.txt = notes.txt
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3FA5D0FF-45A9-437F-BDA8-E9A56AB69DA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FA5D0FF-45A9-437F-BDA8-E9A56AB69DA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FA5D0FF-45A9-437F-BDA8-E9A56AB69DA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FA5D0FF-45A9-437F-BDA8-E9A56AB69DA0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BC7E3CA0-9A48-44B5-AE9D-82ED776D9169}
+	EndGlobalSection
+EndGlobal
