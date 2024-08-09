@@ -1,0 +1,75 @@
+
+
+Notes 
+
+- Indexing
+
+1.Clustered Index
+2.Non Clustered Index
+
+- Triggers 
+
+1.DML trigger
+2.DDL trigger
+
+- Transaction 
+
+1.Implicit transaction
+2.Explicit transaction
+3.Autocommit transaction
+
+Indexing :
+
+Organize the data in DB
+Improve the data access and efficiency 
+
+1.Clutered Index : 
+
+- Physical sorting of data 
+- closely associated with the primary key 
+- 1 clustered index in a table 
+
+2.Nonclustered Index :
+
+- Logical grouping of data 
+- Closely associated with unique key 
+- 0 - 999 nonclustered index in a table 
+
+
+Triggers:
+
+- database object that is executed automatically when an event occurs
+
+virtual tables : inserted , deleted
+
+Types :
+ DML : Insert / update / delete
+ DDL : create / drop 
+ Logon  Trigger : Server level
+ 
+ - trigger clauses : FOR / AFTER / INSTEADOF
+
+
+ Transaction  : 
+
+ - set of T-SQL statements that execute as single unit
+ - ACID Properties
+
+ Atomicity - everything happens or nothing 
+ Consistency - Read only the commited data 
+ Isolation - independent , each transaction is seperated from others 
+ Durability - Data is preserved or persistent even when there is any network / server / other failures 
+
+ Types 
+
+1.Implicit transaction
+2.Explicit transaction
+3.Autocommit transaction
+
+
+commands : 
+
+Rollback - revert
+commit - save 
+savepoint - save and it can be rollback in the future 
+
