@@ -1,0 +1,63 @@
+
+C#
+
+
+73. Constructor : instantiates the object
+74.Value vs reference : 
+value - actual data eg : enum  , struct   (shallow copy)
+references - references memory location of the data  eg : class,interface 
+(deep copy )
+75 .Exception handling : unexpected error handled at run time
+76.Singleton : one instance of the class
+77.empty variable memory : close the resource / explicitly destrutor / dispose ()
+78.using : imports libraries / namespaces
+79.authentication vs authorization : i)verify the user
+ii) check if the user permission to specific actions 
+80.user input validation : [required],[stringLength],[range],[datetime],
+[json],[phone],[regex] & custom validation
+81.error logging & debugging : logs the error / debugging to identify the error and nug fix
+82.access modifier : public ,private,protected
+83.SOLID : [Single responsibility,open close,Liskov substitution,
+Interface segregation,Dependency injection]
+84.Handle exception : Try...catch...finally...
+88.Anstract vs interface : allows abstract& concrete methods , that requires override keyword to implment by derived classes
+interface : must be implemented when inherited.doesnt require 'override' keyword
+92.boxing-value -> object ,unboxing - object -> value
+94.LINQ: Language integrated query 
+from...<datasource>
+where...<condition>
+select ...<values>
+95.Lambda Expression : simplifies the function statements
+96.INT - integer Data type ,value type ,4 bytes,
+97.strings - immutable
+99.Multiple inheritance : Interface concept
+102.appsettings.json : specify the conection string and include in code.
+103.Types of constructor : empty , parameterized and copy
+105.Multiple catch blocks : YES
+106.
+107.System & custom
+108.Exception class
+112.string vs string builder - immutable vs changed
+113 . struct - values type , class -reference type
+115 .string , primitive types,objects...
+116.SQLCOMMAND , ExecuteReader(),ExecuteNonQuery()
+117.Dependency Injection - Create Loosely coupled code
+121.sealed
+122.Global variable vs static - Same 
+123.Dependencies - Class library , service dependency
+125.Microservice - Architecture for shared services 
+131.IDispose is an interface to dispose()
+133.finalize : perform checks to release any dependencies , dispose - will clear the memory
+134.Specify once and use the method across
+135.
+136.IEnumerable - list,collection objects.
+
+
+GIT 
+165) Proper coding etiquette, when to check in with your code? - dev branch --> clone ---> bring the code local---> make changes --> commit to dev again (ensure no merge conflicts)
+166) What is a branch? - version of your code --- git branch <branchname> , git checkout <branchname>
+167) code line or stream in regard to source code version control: - 
+168) Is it possible to merge two or more branches in your local environment? - YES
+
+
+

@@ -1,0 +1,14 @@
+C:\Users\Hp\source\repos\c#class2\bin\Debug\net8.0\c#class2.exe
+C:\Users\Hp\source\repos\c#class2\bin\Debug\net8.0\c#class2.deps.json
+C:\Users\Hp\source\repos\c#class2\bin\Debug\net8.0\c#class2.runtimeconfig.json
+C:\Users\Hp\source\repos\c#class2\bin\Debug\net8.0\c#class2.dll
+C:\Users\Hp\source\repos\c#class2\bin\Debug\net8.0\c#class2.pdb
+C:\Users\Hp\source\repos\c#class2\obj\Debug\net8.0\c#class2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Hp\source\repos\c#class2\obj\Debug\net8.0\c#class2.AssemblyInfoInputs.cache
+C:\Users\Hp\source\repos\c#class2\obj\Debug\net8.0\c#class2.AssemblyInfo.cs
+C:\Users\Hp\source\repos\c#class2\obj\Debug\net8.0\c#class2.csproj.CoreCompileInputs.cache
+C:\Users\Hp\source\repos\c#class2\obj\Debug\net8.0\c#class2.dll
+C:\Users\Hp\source\repos\c#class2\obj\Debug\net8.0\refint\c#class2.dll
+C:\Users\Hp\source\repos\c#class2\obj\Debug\net8.0\c#class2.pdb
+C:\Users\Hp\source\repos\c#class2\obj\Debug\net8.0\c#class2.genruntimeconfig.cache
+C:\Users\Hp\source\repos\c#class2\obj\Debug\net8.0\ref\c#class2.dll

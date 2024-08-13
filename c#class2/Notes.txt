@@ -1,0 +1,173 @@
+
+
+Agenda :
+
+- Constructor
+- Destructor 
+- Exception Handling
+- Static vs NonStatic 
+- Sealed
+- Arrays
+- Tuples
+- Design patterns
+1.SOLID
+2.Singleton
+3.Repository
+4.Clean Architecture
+
+8/13/2024
+
+- LINQ
+- Testing
+1.Unit testing ( XUnit , NUnit , MSTest)
+- Serialization
+- Delegates (anonymous methods & lambda expression)
+- Events 
+- ADO.NET / EF
+- Data validation
+
+Constructor : 
+
+- special method to instantiate the object
+- We can overload the construtor
+- constructor name and class name must be same
+- constructor must be public 
+- accepts parameters
+
+Types :
+- Empty constructor
+- Parameterized constructor  - most popular 
+- copy constructor  --least recommended
+
+
+Static vs Nonstatic :
+
+Class scope
+Object instantiation is not required 
+
+Destrutor :
+- Destroy the object 
+- Idisposable interface ---> dispose()
+- GC.collect()
+- destructor name and class name must be same
+- ~ signifies destructor
+- we cannot overload 
+- no parameters
+
+Exception handling :
+
+- unexpected event occurs in your piece of code 
+- try.. catch..finally
+try : set of statements to inspect for error
+catch : catch the exception and provide necessary actions
+finally : runs no matter whether you have exception or not 
+release the resources 
+
+Types :
+
+- System Exception(DivideByZero, IndexOutofRange,Arithmetic ,NullReferenceException) - Exception
+
+catch(Exception Ex)
+{
+}
+catch(Arthimetic Ex)
+{
+}
+
+
+- Custom Exception / User Defined Exception 
+
+sealed : stops class from inheriting 
+
+
+
+Design patterns
+1.SOLID
+2.Singleton
+3.Repository
+4.Clean Architecture(simplify the way you write your code )
+
+Design pattern :
+
+- Readability
+- Organize the code
+- Sacalability
+- Loosely coupled 
+- Improve efficiency 
+
+Singleton :
+
+- one purpose
+
+Repository design pattern :
+
+controller ---->repository(set of interface & classes ) ---> datamodel
+
+SOLID Design :
+
+Single responsibility - single purpose
+Open Close - open to extension and close to modification 
+Liskov substitution
+Interface segregation
+Dependency Injection 
+
+1.Construtor injection
+2.Property injection
+3.Method injection
+
+[obselete("this method is deprecated")]
+
+
+Structure :
+
+Controller
+
+Service :
+Iservice
+service class
+
+Repository
+Irepository
+repository class
+(CRUD)
+
+var vs dynamic 
+
+var : dt resolved at compile time
+dynamic : dt resolved at run time 
+
+-- boxing (value to object ) vs unboxing (object to value)
+
+Arrays 
+Tuples
+LINQ
+
+Arrays : 
+- Type of data structure
+- values stored in linear fashion
+- indexed
+- value of same data type
+- fixed size 
+- index starts with 0
+
+Types :
+1.Single dimensional 
+2.Multi
+3.Jagged array (array with variable length)
+
+- sort the given array in ascending order based on the string length
+
+string[] values={"bb","bbb","a","b","ccc","ab","aaaa"}
+
+
+Tuples: values are neither linear or non linear  , stored with differen data types 
+
+Types : 
+
+1.named tuple 
+2.unnamed tuple
+
+
+
+
+
