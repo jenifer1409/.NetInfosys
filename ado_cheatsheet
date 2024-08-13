@@ -1,0 +1,33 @@
+
+
+ADO.NET / EF:
+
+1.ADONET : Set of classes & methods 
+EF: ORM (DB(Scaffold) / CF(migration))
+
+2.Data modelling using EF :
+ ORM (DB(Scaffold) / CF(migration))
+
+3.Global Exception handler (Exception filter)
+
+4.ADO : Active database objects
+
+5. Connect to DB using ADO - Sqlconnection()
+con.open()
+
+6.QueryAsync("select * from tablename",id)
+
+7.EF : ORM (DB(Scaffold) / CF(migration))
+
+8. QueryAsync("dbo.uspproc",id)
+
+9.ORM (DB(Scaffold) / CF(migration))
+
+10.(DB(Scaffold) / CF(migration))
+
+11.EF -> CRUD
+
+12.SQLDataReader
+
+13.ADO VS EF : ADONET : Set of classes & methods 
+EF: ORM (DB(Scaffold) / CF(migration))
