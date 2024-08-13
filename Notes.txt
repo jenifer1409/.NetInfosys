@@ -1,0 +1,172 @@
+
+
+Agenda :
+
+
+- Serialization
+- Delegates (anonymous methods & lambda expression)
+- Events 
+- LINQ
+- ADO.NET / EF
+- Data Annotation
+
+
+Delegates : 
+
+references to method at run time
+
+1.create a delegate -  delegate del1(int)
+2.set the target method  -  del1(getVehicleDetails)
+3.invoke the delegate -  del1()
+
+Built In delegates :
+
+1.Func  - Must return a value
+2.Action - must not return a value
+3.Predicate - returns boolean value
+
+User defined delegates :
+
+- single cast  (1 delegate -> 1 method)
+- multi cast (1 delegate ---> multiple methods )
+
+Anonymous Methods :
+
+- doesnt have method declaration
+- rather have inline statements to implemnet the method
+- Delegate()
+
+
+Lambda Expression : simplifies the method definition
+
+(input)=> {expression}
+
+
+- sort by length {"aaa","bb","a","cccc"}
+
+
+Events :
+
+- any user action like mouse over , button click ... will generate event
+
+- event handling : set of actions to execute when event occurs in your code
+
+- delegates & events 
+
+
+Serialization :
+
+convert from object to bytes(any data format -> JSON / XML / Binary) that you will store in DB / File / memory
+
+Deseialization:
+
+convert from bytes to objects
+
+Types :
+
+1.Binary - BinaryFormatter
+2.XML Serialization   - XMLSerializer
+3.JSON Serialization // very very popular one  - JsonConvert
+
+Newtonsoft.JSON
+
+LINQ :
+
+Language integrated query
+
+- simplifies the way you write sql queries in your c# code
+
+syntax:
+from...<datasource>
+where...<condition>
+select...<resultset>
+
+LINQ Methods :
+
+selection methods :
+
+- first / FirstOrDefault
+- last / LastOrDefault
+- single / SingleOrDefault
+
+aggregate methods :
+
+Count() ,max(),min(),sum(),average()
+
+sorting methods :
+
+orderby()
+orderbydescending()
+
+Grouping methods :
+
+groupby()
+
+
+
+Skip & take :
+
+skip(2)
+take(2)
+
+ADO.NET : - Active database objects 
+
+Architecture :
+
+Disconnected architecture 
+Connected Architecture 
+
+Classes :
+
+ Sqlconnection - Datasource 
+ SqlCommand - CRUD , rather use stored procedures instead of queries
+ SqlDataAdapter - acts a bridge between your data tables & code call
+ SqlDataReader - reads the data from the data source
+
+Methods :
+
+ExecuteReader()  - reads the data from data source
+ExecuteNonQuery() - insert / update / delete 
+
+
+EF - Entity Framework
+
+- ORM (Object relational mapper)
+- light weight , easy , efficient 
+
+Two approaches :
+
+1.Database first approach - dbo(tables)--->scaffold ---> c#code(class)
+2.Code first approach - c#code(class) --> migrated as ---> dbo(tables)
+
+
+step 1:
+
+Packages :
+
+Microsoft.EntityFrameworkCore
+
+Microsoft.EntityFrameworkCore.Tools
+
+Microsoft.EntityFrameworkCore.SqlServer
+
+step 2: create data model
+
+sttep 3 : Create context class
+
+step 4 : Migrate the database
+
+add-migration 'vehiclebooking'
+update-database
+
+
+step 5 : crud
+
+Database first approach : 
+
+dbo ---> scaffold ---> code(c#class)
+
+scaffold-dbcontext "Data Source=DESKTOP-PL0KJBQ;Initial Catalog=adonet;Integrated Security=True;Persist Security Info=False;Pooling=False;Multiple Active Result Sets=False;Encrypt=True;Trust Server Certificate=True;Command Timeout=0" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models -Context VehicleBookingContext -f
+
+
+
