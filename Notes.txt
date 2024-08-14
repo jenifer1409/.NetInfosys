@@ -1,0 +1,96 @@
+
+
+Topics :
+
+- Introduction to ASP.NET MVC
+* Model 
+* View
+* Controller
+* folder structure
+- CRUD using MVC 
+
+
+- Web API 
+* REST
+* REST PRINCIPLES
+* RESTFUL services
+* SOAP VS REST
+- CRUD
+- Middleware for custom exception
+- Registration Lifetimes
+
+- Testing 
+* unit testing ( XNUIT / NUNIT / MSTEST)
+
+MVC - Model View Controller
+
+Model : class / entities / data - set of properties 
+View : .CSHTML (cs + html) - you can write both server code + tags
+Controller : Controller logic / functionality -> interacts with model and view 
+HTML Helpers : @html 
+
+<label id="l1" type="text" value="hello"/>
+
+@html.label()
+
+HTTP VERBS :
+GET - READ
+POST - CREATE
+PUT - UPDATE
+DELETE - DELETE 
+
+Web api / REST :
+
+- Content negotiation
+- compatible to different devices with different data format 
+
+REST : Set of rules that defines the architecture
+RESTFUL : when you create an api with these principles 
+
+4 Rules :
+
+- Statelessness 
+- Client Server
+- Uniform Interface
+- Cacheability 
+
+SOAP vs REST :
+
+- SOAP : simple object access protocol
+- protocol
+* xml based
+* <tags> structure 
+
+REST : 
+- architecture 
+- Create a more readable , efficient applications 
+
+Service Registration Lifetime:
+
+1.AddSingleton - use one instance for all http calls
+2.AddScoped - 1 instance for http calls inside same scope
+3.AddTransient - new instance for every http request
+
+Testing : 
+
+- To check whether the code that we write is working as expected.
+
+Unit testing : 
+
+Testing a small module / piece of code
+
+Test Project :
+
+Nunit
+Xunit
+MSTest
+
+Approach :
+
+AAA
+
+Arrange - Set up the test (controller,service...)
+
+Act  - Pass the test data (mock data)
+
+Assert - Expected value = actual value 
