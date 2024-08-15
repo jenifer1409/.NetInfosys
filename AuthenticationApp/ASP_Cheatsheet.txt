@@ -1,0 +1,7 @@
+﻿
+
+157 : JWT , Apikey,[Authorize]
+224. Mocking with dummy / sample data to test the logic 
+227.MOQ : Test strategy to test the logic with sample data.
+
+AAA

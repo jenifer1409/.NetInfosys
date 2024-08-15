@@ -1,0 +1,45 @@
+﻿
+
+Topics :
+
+Core Web API :
+
+- Minimal API
+- Authentication : 
+        JWT
+- Testing 
+- Middleware
+- Exception Handling
+
+Angular :
+
+- Introduction
+- Component
+- Module
+- Routing
+- Decorators
+- Data Binding
+1.one - way
+2.two - way
+- Services 
+
+
+
+- Minimal API :
+
+Manage independent unit of code
+Minimum or less dependency
+- it allows to store in memory db
+- Cannot controller
+- cannot have DB
+- no dependency injection
+
+JWT : JSON WEB TOKENS
+- Authentication in your code 
+
+Middleware : Software component that allows you to include some logic in your code at runtime
+
+
+HttpContext : Specifies information about your http request
+
+HttpClient : Establish a communication to other application 
