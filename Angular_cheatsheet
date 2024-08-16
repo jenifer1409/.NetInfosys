@@ -1,0 +1,105 @@
+
+
+169.directives : extend behaviour of the html elements .
+- conditionally logic (structural directives)
+- add styles & behaviours (attribute)
+- @component (component)
+
+170. Routing : navigate between web pages
+
+Static :routes[]{path : '',component:}
+dynamic:this.navigate.route('[vlist]')
+
+171 . HTTP response code : 100,200,300,400,500
+
+172. let vs var : 
+
+var : declare & redefines
+
+let : block scope , declare once and cannot redefine
+
+173. Style a selector in css file :
+
+- styleurl 
+
+- class (.p), id(#p) , element 
+
+p{
+    font-size:45px
+}
+
+174 . angular to api :
+
+create a service class(baseurl) that will call the api by injecting in component
+
+- using http client
+
+177 . session : 
+
+record the user session / activity on the page 
+
+timeout if the page is unused
+
+178.get():observable<vehicle>
+{
+    this.http.get<vehicle>(this.baseurl+'/api/vehicle/get);
+}
+
+179. Seal a project :release project
+
+180,182.Angular JS : ngBind
+
+[(ngModel)] - two way data binding
+
+181.ngIf,ngFor,...@component
+183.Bootstrap : 
+
+ng new projectname
+
+184.ng g c <componentname>
+
+185.ngClass , ngStyle
+
+186.ng build
+
+187 . Angular Unit Testing ??? 
+
+188. Lazy loading : upon request it loads the data
+
+Yes - observables
+
+189. - create docker image  & deploy in azure 
+- ng build --prod
+- dist folder in s3 bucket
+
+190 . structural(@if,@for,@switch) & attribute(ngClass,ngStyle)
+
+191.httpclient - get,put,post,delete
+
+- axios 
+
+193 . bundling - ng build (Compress your file,clean like remove spaces,comments)
+
+194.Decorators: @component,@injectable,@ngModule,@pipe
+observables : lazy loading.Subscribe to multiple methods / events asynchronously.
+
+198 . parent - child component 
+
+- @input , @output 
+
+203 . NPM - node package manager .To install libraries and run JS files.
+
+- manages packages
+
+206 . Lifecycle hook - OnInit(),onchanges(),ondestroy()
+
+207.app.Module.ts (@ngModule)
+208. Index.html 
+210 . Early binding vs late binding
+
+Early binding : binding at compile time
+late binding : binding at run time
+
+
+
+
