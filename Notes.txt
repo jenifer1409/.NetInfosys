@@ -1,0 +1,55 @@
+
+
+Topic :
+
+- Introduction
+- Folder structure
+- Component
+- Module
+- Directives
+- Routing
+- Pipes
+
+
+Angular : Front end Framework - to create web applications
+
+React : Front End Library
+
+Framework vs Library :
+
+Framework :
+- Built in architecture
+
+
+Library :
+- easy to download & use
+
+Key features :
+
+- Component based(class , html , css , testfile)
+- Data Binding : Binding data from source(class)---> view (html),view ---> source 
+- Dependency Injection : Manage dependency in components.
+- Directives : 
+1.Structural :@ngIf,@ngFor,@ngSwitch
+2.Attribute :ngClass ,ngStyle
+3.component : @component
+- Routing : navigate between web pages
+- Pipes : Add additional behaviour to your output / data  |
+- Forms Management : manage form elements - Reactive & Template forms 
+
+
+template vs templateurl : 
+
+templateUrl: seperate .html file
+template: inline html statements
+
+StyleUrl: seperate .css file
+Style : inline css statements
+
+Component : Building block of application .Its like a bundle of files(html,cs,ts,spec.ts)
+
+Service :
+-  helps implement functionality that can be reused across the application
+- service  is injected is components at constructor level and functionality is used
+- call the service to retrieve the data , add , update , delete 
+- service communicates with the backend application
