@@ -1,0 +1,32 @@
+<h1> Edit Vehicle Details</h1>
+<div>
+    <form #form="ngForm" (ngSubmit)="EditVehicle()">
+        <div>
+            <label>Registration Id</label>
+            <input type="text" name="regId" [(ngModel)]="editVehicleRequest.regId" readonly>
+        </div>
+    <div>
+        <label>VehicleId</label>
+        <input type="text" name="vehicleid" [(ngModel)]="editVehicleRequest.vehicleId">
+    </div>
+    <div>
+        <label>Model</label>
+        <input type="text" name="model" [(ngModel)]="editVehicleRequest.model">
+    </div>
+    <div>
+        
+        <input type="text" name="serviceDate" [(ngModel)]="editVehicleRequest.lastServiceDate" hidden>
+    </div>
+
+    <div>
+        <button type="submit" class="btn btn-primary">Edit Vehicle</button>
+    </div>
+    <br>
+    <br>
+
+    <div>
+        <button type="button" class="btn btn-primary" (click)="deleteVehicle(editVehicleRequest.regId)">Delete Vehicle</button>
+    </div>
+
+    </form>
+</div>

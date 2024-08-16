@@ -1,0 +1,26 @@
+<h1> Add Vehicle Details</h1>
+<div>
+    <form #form="ngForm" (ngSubmit)="addVehicleDetails()">
+        <div>
+           
+            <input type="text" name="regId" [(ngModel)]="addVehicleRequest.regId" hidden>
+        </div>
+    <div>
+        <label>VehicleId</label>
+        <input type="text" name="vehicleid" [(ngModel)]="addVehicleRequest.vehicleId">
+    </div>
+    <div>
+        <label>Model</label>
+        <input type="text" name="model" [(ngModel)]="addVehicleRequest.model">
+    </div>
+    <div>
+        
+        <input type="text" name="serviceDate" [(ngModel)]="addVehicleRequest.lastServiceDate" hidden>
+    </div>
+
+    <div>
+        <button type="submit" class="btn btn-primary">Add Vehicle</button>
+    </div>
+
+    </form>
+</div>

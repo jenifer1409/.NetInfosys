@@ -1,0 +1,46 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   
+    <h1>Vehicle Details </h1>
+
+    <p><button type="button" class="btn btn-primary" [routerLink]="'/addvehicle'" >Add Vehicle</button></p>
+        <table class="table table-success table-striped">
+            <thead>
+                <tr>
+                    <th>Registration Id</th>
+                    <th>Vehicle Id</th>
+                    <th>Model</th>
+                    <th>Last Service Date</th>
+                    <th>Changes</th>
+                </tr>
+            </thead>
+            <tbody>
+                @for(v of vehicles;track v)
+                {               
+                <tr>
+                    <td>{{v.regId}}</td>
+                    <td>{{v.vehicleId}}</td>
+                    <td>{{v.model}}</td>
+                    <td>{{v.lastServiceDate}}</td>
+                    <td>
+                        <button
+                        type="button"
+                        class="btn btn-primary"
+                        [routerLink]="['/editvehicle', v.regId]"
+                      >
+                        Edit
+                      </button>    
+                    </td>
+                </tr>
+            }
+            </tbody>                       
+        </table>   
+</body>
+</html>
