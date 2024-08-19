@@ -1,0 +1,26 @@
+Project Title: Development of a Web-Based Sales Reporting System 
+(40 minutes) 
+Requirements: 
+You are required to develop a web-based sales reporting system that 
+1. Allow user to login the system with different login ID and password 
+2. The system should allow user to view, add, update, and delete sales transaction records by 
+each user.  
+• For Add and Update, sales item and payment type should be populated by 
+dropdown list and no manual input is allowed. 
+• For Delete, it should be a soft delete. 
+3. A search function to allow user to filter by Item name, sales date, payment type 
+Database: 
+A relational database is required to store information including 
+1. User Profile – User Name, login ID and password, user role, reporting manager 
+2. Sales transaction – Sales item, sales date, Amount, Payment Type, Updated Date, Created 
+Date, Created By, Updated By 
+3. Maintenance tables required for  
+• Sales Item (eg, item name, price, quantity, etc) 
+• Payment Type (eg., cash, digital wallet, credit card, online payment, etc) 
+• User Role (eg, Administrator, marketing agent, basic user, etc) 
+System Design: 
+• Frontend: ASP.NET Core  / Angular
+• Backend: ASP.NET WebApi 
+• Architecture: MVC with service layer 
+• DB: MSSQL 
+• ORM: Dapper / EF
